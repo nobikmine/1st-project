@@ -7,10 +7,9 @@ import json
 import random
 
 def send(self, token, channel_id, message, delay, image):
-    messages = message.split(',')
+    messages = message
 
     def sendMessage(token, channelid, messages, image):
-        message = random.choice(messages)
         ws = create_connection("wss://gateway.discord.gg/")
         data = '''
         {
@@ -40,7 +39,7 @@ def send(self, token, channel_id, message, delay, image):
         except:
             pass
         current_datetime = datetime.now()
-        self.logsbeep.emit(f"{current_datetime}  |   MSG sended to {channel_id}")
+        self.logsbeep.emit(f"{current_datetime}  |   Сообщение отправлено в {channel_id}")
 
 
     def time():
