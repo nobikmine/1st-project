@@ -13,7 +13,7 @@ __Discord Auto Poster - Автоматическая отправка сообщ
 ----------
 # Инструкция по установке
 
-- Скачать [архив](https://drive.google.com/drive/folders/1ylcyd8_lVC4iz7J-4HgnHDgyzDTa3e8f?usp=drive_link).
+- Скачать [архив](https://drive.google.com/file/d/1cmfit3EktDX1EImapgpAALXK_U4NdQvy/view?usp=drive_link).
 - Распаковать в любую папку
 - Запустить Discord AP.exe
 
